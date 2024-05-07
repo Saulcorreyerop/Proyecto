@@ -10,9 +10,9 @@
     <title>Inicio</title>
 </head>
 <body>
-    <header class="container-fluid bg-primary">
-        <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h1>Título de la Página</h1>
+    <header class="container-fluid">
+        <div class="fondo-cabecera text-dark text-center row">
+            <h1>Fake Noobs</h1>
         </div>
     </header>
 
@@ -22,14 +22,75 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">          <!--Menú responsivo de Bootstrap-->
             <div class="navbar-nav">
-              <a class="nav-link" href="./Source/cambiar1.html">Cambiar 1</a>
-              <a class="nav-link" href="./Source/cambiar2.html">Cambiar 2</a>
+              <a class="nav-link" href="./Source/cambiar1.html">Cambiar 1</a>  <!--Cambiar el nombre de los enlaces/rutas/nombre-archivo-->
+              <a class="nav-link" href="./Source/cambiar2.html">Cambiar 2</a>  <!--Cambiar el nombre de los enlaces/rutas/nombre-archivo-->
             </div>
           </div>
         </div>
     </nav>
     
+    <main class="container-fluid">
+      
+      <div class="row"> <!--Inicio del primer row que engloba las 4 cards de ropa del main-->
+
+        <h2>La moda más actual.</h2>
+
+        <!--Card 1-->
+        <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3 espacio-entre" style="width: 18rem;">
+          <img src="./Img/pants.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pantalones</h5>
+            <p class="card-text">Pantalones vaqueros anchos de hombre. Moda hombre al mejor precio</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        
+        <!--Card 2-->
+        <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3 espacio-entre" style="width: 18rem;">
+          <img src="./Img/pants.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pantalones</h5>
+            <p class="card-text">Pantalones vaqueros anchos de hombre. Moda hombre al mejor precio</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <!--Card 3-->
+        <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3 espacio-entre" style="width: 18rem;">
+          <img src="./Img/pants.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pantalones</h5>
+            <p class="card-text">Pantalones vaqueros anchos de hombre. Moda hombre al mejor precio</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <!--Card 4-->
+        <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3 espacio-entre" style="width: 18rem;">
+          <img src="./Img/pants.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pantalones</h5>
+            <p class="card-text">Pantalones vaqueros anchos de hombre. Moda hombre al mejor precio</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+      </div>  <!--Fin de la primera fila donde se encuentran las cards con ropa aleatoria.-->
+    </main>
+
+    <footer class="container-fluid">
+      <div class="row">        <!--Lista con los nombres de los colaboradores-->
+        <ul class="list-group">
+          <li class="list-group-item active" aria-current="true">Colaboradores:</li>
+          <li class="list-group-item">Francisco José Sánchez Marcos</li>
+          <li class="list-group-item">Pablo Manuel Herrera Rodríguez</li>
+          <li class="list-group-item">Marcos Patrón Barriga</li>
+          <li class="list-group-item">Saúl Correyero Pañero</li>
+        </ul>
+      </div>
+    </footer>
+
 </body>
 </html>
