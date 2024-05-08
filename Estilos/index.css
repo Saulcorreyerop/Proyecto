@@ -19,6 +19,6 @@ h1:hover{
 }
 
 img:hover{
-    transform: scale(1.1);                      /*Clase para cuando pases el raton sobre las imagenes se hagan un poco mas grandes*/
+    transform: scale(1.1);                      /*Cuando pases el raton sobre cualquier imagen se haga más grande*/
     border-radius: 5%;
 }
