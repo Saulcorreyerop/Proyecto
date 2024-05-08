@@ -10,7 +10,7 @@
 h1:hover{
     padding-top: 5%;
     text-transform: uppercase; 
-    transition: 1s;
+    transition: 1.5s;
     transform: scale(1.3);
 }
 
