@@ -22,3 +22,14 @@ img:hover{
     transform: scale(1.1);                      /*Cuando pases el raton sobre cualquier imagen se haga más grande*/
     border-radius: 5%;
 }
+
+.h2-prendas{                                    /*Clase para que el h2 de las pagina de prendas este alineado al centro*/
+    text-align: center;
+}
+
+.h2-prendas:hover{
+    padding-top: 1%;
+    text-transform: uppercase; 
+    transition: 1s;                           /*Clase para que el h2 de la pagina de prendas cuando pases por encima se mueva y se haga mas grande*/
+    transform: scale(1.3);
+}
