@@ -56,3 +56,7 @@ img:hover{
     padding-top: 0.5%;
     color: blue;
 }
+
+.fondo-sobre{
+    background-image: url(../Img/sobre.png);
+}
