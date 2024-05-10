@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Js/bootstrap.js"></script>
+    <script src="../Js/index.js"></script>
+    <link rel="stylesheet" href="../Estilos/bootstrap.css">
+    <link rel="stylesheet" href="../Estilos/index.css">
+    <title>Contactanos</title>
+</head>
+<body> 
+    <header class="container-fluid ">
+        <div class="fondo-cabecera row">
+            <h1 id="inicio" class="text-white text-center colocar">Fake Noobs</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fondo-negro sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Fake Noobs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">          <!--Menú responsivo de Bootstrap-->
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./prendas.html">Todas las prendas</a>
+                    <a class="nav-link" href="./sudaderas.html">Sudaderas</a>
+                    <a class="nav-link" href="./accesorios.html">Accesorios</a>
+                    <a class="nav-link" href="./Calzado.html">Calzado</a>  <!--Cambiar el nombre de los enlaces/rutas/nombre-archivo-->
+                    <a class="nav-link" href="./sobre.html">Sobre Nosotros</a>
+                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid fondo-contacto">
+        <div class="container fondo-blanco">
+            <div class="row">
+                <h2 class="colocar text-center">Contactanos</h2>
+            </div>
+            <div class="row">
+                <p>
+                    Gracias por tu interés. En Fake Noobs, nos esforzamos por proporcionar productos de calidad y un servicio excepcional a nuestros clientes. Si tienes alguna pregunta, comentario o inquietud, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <select class="espacio-entre" name="menu">
+                        <option value="0">...</option>
+                        <option value="1">Pedidos</option>
+                        <option value="2">Envios</option>
+                        <option value="3">Devoluciones</option>
+                    </select>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>Nombre:</p>
+                    <input class="espacio-contacto" type="text" name="nombre" size="50">
+                    <br>  
+                    <p>E-mail:</p> 
+                    <input type="text" name="email" size="50">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>Apellidos:</p>
+                    <input type="text" name="apellidos" size="50">
+                    <p>Número de teléfono</p>
+                    <input type="text" name="telefono" size="50">
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col">
+                        <textarea class="espacio-entre" name="texto" rows="4" cols="120">Escriba algo.</textarea>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <button onclick="boton()" class="col-1 espacio-entre" name="button">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid fondo-negro text-white">
+        <div class="row">
+            <p>Más información</p>
+            <address>
+                <p>Visitanos en: IES Ágora</p>
+                <p>C. Lima, s/n, Centro, 10005 Cáceres</p>
+                <p>Telefono: +34 012 345 678</p>
+                <p>E-mail: fakenoobs@gmail.com</p>
+            </address>
+        </div>
+        <div class="row text-center">
+            <p class="col-sm-12 col-md-12 col-lg-12 col-xl-12">Desarrollado por el grupo Fondo-Izquierda</p>
+        </div>
+    </footer>
+</body>
+</html>
