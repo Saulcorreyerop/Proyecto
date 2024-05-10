@@ -45,14 +45,21 @@ img:hover{
 }
 
 .colocar{
-    margin-top: 2%;
+    margin-top: 2%;                                 /*Clase simple para aplicar espacio por arriba*/
 }
 
 .transformar:hover{
     transition: 1.4s;
     transform: scale(1.3);
-    text-transform:initial;
+    text-transform:initial;                         /*Clase para cuando pasas el ratón por encima de ¿Cuál es mi talla? en el main surjan cambios*/
     padding-left: 12%;
     padding-top: 0.5%;
     color: blue;
+}
+
+.fondo-sobre{
+    background-image: url(../Img/sobre.png);        /*Clase para aplicar la foto como fondo de la página de sobre nostros*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px auto;
 }
