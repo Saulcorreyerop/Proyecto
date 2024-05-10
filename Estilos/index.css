@@ -59,4 +59,7 @@ img:hover{
 
 .fondo-sobre{
     background-image: url(../Img/sobre.png);        /*Clase para aplicar la foto como fondo de la página de sobre nostros*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px auto;
 }
