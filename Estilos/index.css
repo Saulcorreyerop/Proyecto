@@ -2,6 +2,10 @@
     background-color: black;        /*Clase que solo aplica un color negro de fondo*/
 }
 
+.fondo-blanco{
+    background-color: white;
+}
+
 .fondo-cabecera{
     background-image: url(../Img/fake-noobs.png);        /*Fondo del header de todas las páginas*/
     height: 10em;
@@ -16,6 +20,11 @@ h1:hover{
 
 .espacio-entre{
     margin: 2.9%;                               /*Clase para aplicar espacios entre cosas*/
+}
+
+.margen-contacto{
+    margin-right: 2.9%;
+    margin-left: 2.9%;                               /*Clase para aplicar espacios entre cosas*/
 }
 
 img:hover{
@@ -59,6 +68,13 @@ img:hover{
 
 .fondo-sobre{
     background-image: url(../Img/sobre.png);        /*Clase para aplicar la foto como fondo de la página de sobre nostros*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px auto;
+}
+
+.fondo-contacto{
+    background-image: url(../Img/fondo_contactanos.jpg);        /*Clase para aplicar la foto como fondo de la página contactanos*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1920px auto;
