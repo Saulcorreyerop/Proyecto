@@ -79,3 +79,11 @@ img:hover{
     background-attachment: fixed;
     background-size: 1920px auto;
 }
+
+.area-texto{                        /*Clase para darle un tamaño adecuado al textarea*/
+    width: 80%;
+}
+
+.boton{                             /*Clase para darle un tamaño adecuado al boton*/
+    width: 100px;
+    height: 50px;
